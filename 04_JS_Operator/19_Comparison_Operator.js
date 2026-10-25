@@ -11,7 +11,8 @@ console.log ('5' == 5);      // true, because it will convert string to number a
 console.log (null == 'user') // false
 console.log ('' == 0)        // true , "" coerced to Number → 0
 console.log ('0' == 0)       // true, "0" coerced to Number → 0
-console.log ('' == '0')      // false , both datatype is same hence ("" coerced to Number → 0) this correction will not happen here
+console.log ('' == '0')      // false , both datatype is same hence 
+                           //   ("" coerced to Number → 0) this correction will not happen here
 
 
 let user1 = 'Anil';
